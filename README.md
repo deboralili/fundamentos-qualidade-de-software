@@ -7,7 +7,7 @@ Repositório destinado aos meus estudos sobre **Qualidade de Software**, onde re
 ## 📚 Sumário
 
 - [🐞 Guia de Bugs para QA](./guia-de-bugs-para-qa.md)
-- 📋 Teste de Software *(em breve)*
+- [📋 Teste de Software](./tipos-de-testes-de-software.md)
 
 <br/>
 
