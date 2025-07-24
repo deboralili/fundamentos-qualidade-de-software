@@ -56,3 +56,68 @@ Vantagens:
 Desvantagens:
 - Custo inicial para desenvolvimento dos testes;
 - Manutenção dos scripts conforme o sistema evolui.
+
+# 🔍 Classificação dos Testes de Software
+
+## 1. 🧪 Testes de Unidade
+
+Focados em testar partes isoladas do código, como **funções ou métodos**.
+
+- Geralmente realizados por desenvolvedores;
+- Cobrem apenas pequenas partes da aplicação;
+- Executados rapidamente e com frequência.
+
+Ferramentas comuns: Jest, JUnit, pytest.
+
+## 2. 🔗 Testes de Integração
+
+Avaliam se **módulos diferentes** interagem corretamente entre si.
+<br/>
+Exemplos:
+- Comunicação entre o front-end e o banco de dados;
+- Integração entre serviços REST.
+
+> 🧠 São importantes para detectar problemas em pontos de comunicação entre partes do sistema.
+
+## 3. ✅ Testes Funcionais
+
+Verificam se o sistema cumpre os **requisitos funcionais** definidos, ou seja, se ele faz o que deveria fazer.
+- Ignoram o funcionamento interno;
+- Avaliam as entradas e as saídas de um sistema;
+- São normalmente testes de caixa preta.
+
+## 4. 🔁 Testes de Ponta a Ponta (End-to-End)
+
+Simulam o **fluxo completo do usuário**, desde o início até o fim de um processo.
+<br/>
+Exemplo de cenário:
+- Login → Adição de item ao carrinho → Pagamento → Confirmação.
+
+> ⚠️ São testes mais demorados e frágeis a mudanças na interface, mas fornecem uma visão completa da experiência do usuário.
+
+## 5. 📋 Testes de Aceitação
+
+Validam se o software **atende às expectativas e critérios de aceitação do cliente ou usuário final**.
+
+- Muitas vezes escritos em linguagem natural;
+- Podem ser baseados em histórias de usuário;
+- São essenciais antes de uma entrega.
+
+Frameworks populares: Cucumber, Behave.
+
+## 6. 🚀 Testes de Desempenho
+
+Analisam como o sistema se comporta sob **cargas específicas**.
+<br/>
+Tipos:
+- Teste de carga (load test): avalia desempenho sob demanda normal;
+- Teste de estresse (stress test): simula picos de uso;
+- Teste de escalabilidade: verifica capacidade de adaptação ao crescimento.
+
+Ferramentas: JMeter, Gatling, Locust.
+
+## 7. 💨 Testes de Fumaça (Smoke Tests)
+
+Executados rapidamente para garantir que as **funcionalidades principais** estão funcionando após uma nova versão ser implementada.
+
+> São como um "teste inicial" antes de rodar testes mais detalhados.
